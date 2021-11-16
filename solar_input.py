@@ -100,6 +100,7 @@ def write_space_objects_data_to_file(output_filename, space_objects):
             # FIXME: should store real values  !fixed!
 
 # ??? FIXME: хорошо бы ещё сделать функцию, сохранающую статистику в заданный файл...
+# это задачу выполняет функция save_file_dialog в файле solar_main
 
 if __name__ == "__main__":
     print("This module is not for direct call!")
